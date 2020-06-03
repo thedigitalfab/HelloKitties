@@ -33,21 +33,24 @@ gem 'jbuilder', '~> 2.5'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+##
+## Custom gem for project:
+##
+
 # Use devise for User authentication:
 gem "devise", "~> 4.7"
-
 # Use faker for Generate Fake datas:
 gem "faker", "~> 2.12"
-
 # Use Table print to print database table on console:
 gem "table_print", "~> 1.5"
-
 # Use letter opener to print sended mail on console:
 gem "letter_opener", "~> 1.7"
-
 # Use Dotenv Rails to reference .env variables:
 gem "dotenv-rails", "~> 2.7"
-
+# Use Bootstrap & FontAwsome:
+gem "bootstrap", "~> 4.5"
+gem "font-awesome-rails", "~> 4.7"
+gem "jquery-rails", "~> 4.4"
 # Use Stripe API
 gem "stripe", "~> 5.22"
 
