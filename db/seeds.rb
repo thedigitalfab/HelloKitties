@@ -7,6 +7,19 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 require 'faker'
 
+## Generate Users
+10.times do
+    @user = User.create(
+      email: Faker::Internet.email,
+      password: "azerty"
+    )
+
+    ## Generate Cart
+    Cart.create(user_id: @user.id)
+  end
+
+  ## Fill Carts
+  
 ## Generate Items
 10.times do
   Item.create!(
